@@ -1,0 +1,32 @@
+name: RemnantOfKerklyash
+version: 1.0
+main: com.dioforever.remnantofkerklyash.Main
+author: DioForever
+api-version: 1.16
+commands:
+  skills:
+    description: Brings open the Skills GUI
+  races:
+    description: Brings open the Races GUI
+  trueform:
+    description: Transfroms you back to your trueform, if you have one.
+  rokgui:
+    description: Opens Menu where you can see all about yourself.
+    aliases:
+      - kerklyash
+  forcelvl:
+    description: If you are Administrator you can force your level to go up!
+  forcerace:
+    description: If you are Administrator you can force your race level to go up!
+  forceboth:
+    description: If you are Administrator you can force your race level and level to go up!
+    aliases:
+      - forceb
+  pointsadd:
+    description: Adds you 2 points.
+    aliases:
+      - padd
+      - PointsAdd
+      - pointsAdd
+
+
